@@ -1,7 +1,7 @@
-﻿using System.IO;
-
-namespace SortBibliography
+﻿namespace SortBibliography
 {
+    using System.IO;
+
     internal class Streamreader : StreamReader
     {
         public Streamreader(string path) : base(path)
