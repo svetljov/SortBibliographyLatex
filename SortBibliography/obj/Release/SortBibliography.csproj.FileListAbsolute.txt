@@ -1,0 +1,5 @@
+C:\Users\sivanov\Desktop\SortBibliography\SortBibliography\SortBibliography\bin\Release\SortBibliography.exe.config
+C:\Users\sivanov\Desktop\SortBibliography\SortBibliography\SortBibliography\bin\Release\SortBibliography.exe
+C:\Users\sivanov\Desktop\SortBibliography\SortBibliography\SortBibliography\bin\Release\SortBibliography.pdb
+C:\Users\sivanov\Desktop\SortBibliography\SortBibliography\SortBibliography\obj\Release\SortBibliography.exe
+C:\Users\sivanov\Desktop\SortBibliography\SortBibliography\SortBibliography\obj\Release\SortBibliography.pdb

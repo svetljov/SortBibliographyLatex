@@ -1,0 +1,6 @@
+C:\Users\sivanov\Desktop\SortBibliography\SortBibliography\SortBibliography\bin\Debug\SortBibliography.exe.config
+C:\Users\sivanov\Desktop\SortBibliography\SortBibliography\SortBibliography\bin\Debug\SortBibliography.exe
+C:\Users\sivanov\Desktop\SortBibliography\SortBibliography\SortBibliography\bin\Debug\SortBibliography.pdb
+C:\Users\sivanov\Desktop\SortBibliography\SortBibliography\SortBibliography\obj\Debug\SortBibliography.csprojResolveAssemblyReference.cache
+C:\Users\sivanov\Desktop\SortBibliography\SortBibliography\SortBibliography\obj\Debug\SortBibliography.exe
+C:\Users\sivanov\Desktop\SortBibliography\SortBibliography\SortBibliography\obj\Debug\SortBibliography.pdb
