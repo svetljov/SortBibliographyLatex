@@ -14,20 +14,21 @@
         private const string EndOfBibliographyPhrase = @"\end{thebibliography}";
         private const string RegexConst = @"\\cite{([\s\S]+?)}";
 
-        private string outputFileName;
         private IList<string> orderedListOfUniqueCitations;
         private IDictionary<string, string> bibliographyDictionary;
+
+        private string outputFileName;
         private string inputFileName;
         private string body;
         private string bibliography;
-
+        
         public CitationBuilder(string inputFileName, string outputFileName)
         {
             this.inputFileName = inputFileName;
             this.outputFileName = outputFileName;
 
-            orderedListOfUniqueCitations = new List<string>();
-            bibliographyDictionary = new Dictionary<string, string>();
+            this.orderedListOfUniqueCitations = new List<string>();
+            this.bibliographyDictionary = new Dictionary<string, string>();
 
             this.body = null;
             this.bibliography = null;
@@ -171,7 +172,7 @@
                 match = match.NextMatch();
             }
 
-            orderedListOfUniqueCitations = this.orderedListOfUniqueCitations.Distinct().ToList();
+            this.orderedListOfUniqueCitations = this.orderedListOfUniqueCitations.Distinct().ToList();
         }
     }
 }
