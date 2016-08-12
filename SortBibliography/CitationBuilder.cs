@@ -173,7 +173,7 @@
 
                 foreach (var item in items)
                 {
-                    this.orderedListOfUniqueCitations.Add(item);
+                    this.orderedListOfUniqueCitations.Add(item.Trim());
                 }
 
                 match = match.NextMatch();

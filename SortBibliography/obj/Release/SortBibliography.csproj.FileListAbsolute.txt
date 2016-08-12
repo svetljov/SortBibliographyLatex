@@ -13,3 +13,4 @@ D:\SvetPAPERS\0. SortBibliographyC#\SortBibliography - repository\SortBibliograp
 D:\SvetPAPERS\0. SortBibliographyC#\SortBibliography - repository\SortBibliography\obj\Release\SortBibliography.pdb
 D:\SvetPAPERS\0. SortBibliographyC#\SortBibliography - repository\SortBibliography\bin\Release\SortBibliography.exe
 D:\SvetPAPERS\0. SortBibliographyC#\SortBibliography - repository\SortBibliography\bin\Release\SortBibliography.pdb
+D:\SvetPAPERS\0. SortBibliographyC#\SortBibliography - repository\SortBibliography\obj\Release\SortBibliography.csprojResolveAssemblyReference.cache

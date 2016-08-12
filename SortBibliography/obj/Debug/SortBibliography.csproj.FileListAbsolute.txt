@@ -9,3 +9,8 @@ C:\Users\sivanov\Desktop\SortBibliography\SortBibliography - repository\SortBibl
 C:\Users\sivanov\Desktop\SortBibliography\SortBibliography - repository\SortBibliography\obj\Debug\SortBibliography.pdb
 C:\Users\sivanov\Desktop\SortBibliography\SortBibliography - repository\SortBibliography\bin\Debug\SortBibliography.exe
 C:\Users\sivanov\Desktop\SortBibliography\SortBibliography - repository\SortBibliography\bin\Debug\SortBibliography.pdb
+D:\SvetPAPERS\0. SortBibliographyC#\SortBibliography - repository\SortBibliography\bin\Debug\SortBibliography.exe.config
+D:\SvetPAPERS\0. SortBibliographyC#\SortBibliography - repository\SortBibliography\obj\Debug\SortBibliography.exe
+D:\SvetPAPERS\0. SortBibliographyC#\SortBibliography - repository\SortBibliography\obj\Debug\SortBibliography.pdb
+D:\SvetPAPERS\0. SortBibliographyC#\SortBibliography - repository\SortBibliography\bin\Debug\SortBibliography.exe
+D:\SvetPAPERS\0. SortBibliographyC#\SortBibliography - repository\SortBibliography\bin\Debug\SortBibliography.pdb
