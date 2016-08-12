@@ -13,7 +13,15 @@
                 string OutputFileName = InputFileName + "-OrderedBibliography.tex";
 
                 ICitationBuilder citationBuilder = new CitationBuilder(InputFileName, OutputFileName);
-                citationBuilder.BuildOrderedBibliography();
+                try
+                {
+                    citationBuilder.BuildOrderedBibliography();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.ReadLine();
+                }
             }
             else
             {

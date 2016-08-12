@@ -44,7 +44,14 @@
 
             foreach (var item in orderedListOfUniqueCitations)
             {
-                sb.Append(bibliographyDictionary[item.Trim()]);
+                try
+                {
+                    sb.Append(bibliographyDictionary[item.Trim()]);
+                }
+                catch (Exception)
+                {
+                    throw new ArgumentException($"\\bibitem{{{item.Trim()}}} is undefined. Press ctrl-c...");
+                }
             }
 
             File.WriteAllText(outputFileName, sb.ToString());
