@@ -47,10 +47,21 @@
                 try
                 {
                     sb.Append(bibliographyDictionary[item.Trim()]);
+                    bibliographyDictionary.Remove(item); // new
                 }
                 catch (Exception)
                 {
                     throw new ArgumentException($"\\bibitem{{{item.Trim()}}} is undefined. Press ctrl-c...");
+                }
+            }
+
+            if (bibliographyDictionary.Count > 0)
+            {
+                sb.AppendLine(new string('%', 10) + " The citations below are not referred to in the text " + new string('%', 10));
+
+                foreach (var item in bibliographyDictionary.Keys)
+                {
+                    sb.Append(bibliographyDictionary[item.Trim()]);
                 }
             }
 

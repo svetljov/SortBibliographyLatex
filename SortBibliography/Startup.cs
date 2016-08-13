@@ -5,7 +5,7 @@
 
     public static class Startup
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             if (args.Length > 0 && File.Exists(args[0]))
             {
