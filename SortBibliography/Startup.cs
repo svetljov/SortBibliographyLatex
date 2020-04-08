@@ -7,25 +7,18 @@
     {
         public static void Main(string[] args)
         {
-            if (args.Length > 0 && File.Exists(args[0]))
-            {
-                string InputFileName = args[0];
-                string OutputFileName = InputFileName + "-OrderedBibliography.tex";
+            string InputFileName = @"D:\SvetPAPERS\0. SortBibliographyC#\SortBibliography - repository\SortBibliography\bin\Release\un-Sort.tex";
+            string OutputFileName = InputFileName + "-OrderedBibliography.tex";
 
-                ICitationBuilder citationBuilder = new CitationBuilder(InputFileName, OutputFileName);
-                try
-                {
-                    citationBuilder.BuildOrderedBibliography();
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                    Console.ReadLine();
-                }
-            }
-            else
+            ICitationBuilder citationBuilder = new CitationBuilder(InputFileName, OutputFileName);
+            try
             {
-                throw new ArgumentException("Drag and drop a valid text file.");
+                citationBuilder.BuildOrderedBibliography();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.ReadLine();
             }
         }
     }
